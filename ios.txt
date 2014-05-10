@@ -1,0 +1,95 @@
+alias bgp address-family rb router bgp 
+alias bgp address-family sib do show ip bgp
+alias bgp address-family sibv do show ip bgp vpnv4 vrf 
+alias bgp address-family sio do show ip ospf
+alias bgp address-family s do show ip int br
+alias bgp address-family sri do show run int
+alias bgp address-family sr do show run
+alias bgp address-family srb do show run | section bgp
+alias bgp address-family sro do show run | section ospf
+alias bgp address-family sir do show ip route
+alias bgp address-family sirv do show ip route vrf
+alias bgp address-family sion do show ip ospf nei
+alias bgp address-family srv do show run vrf 
+alias bgp address-family sl do show logg
+alias bgp address-family sibs do show ip bgp summ 
+
+alias subinterface rb router bgp 
+alias subinterface sib do show ip bgp
+alias subinterface sibv do show ip bgp vpnv4 vrf 
+alias subinterface sio do show ip ospf
+alias subinterface s do show ip int br
+alias subinterface sri do show run int
+alias subinterface sr do show run
+alias subinterface srb do show run | section bgp
+alias subinterface sro do show run | section ospf
+alias subinterface sir do show ip route
+alias subinterface sirv do show ip route vrf
+alias subinterface sion do show ip ospf nei
+alias subinterface srv do show run vrf 
+alias subinterface sl do show logg
+alias subinterface sibs do show ip bgp summ 
+
+alias router rb router bgp 
+alias router sib do show ip bgp
+alias router sibv do show ip bgp vpnv4 vrf 
+alias router sio do show ip ospf
+alias router s do show ip int br
+alias router sri do show run int
+alias router sr do show run
+alias router srb do show run | section bgp
+alias router sro do show run | section ospf
+alias router sir do show ip route
+alias router sirv do show ip route vrf
+alias router sion do show ip ospf nei
+alias router srv do show run vrf 
+alias router sl do show logg
+alias router sibs do show ip bgp summ 
+
+alias interface rb router bgp 
+alias interface sib do show ip bgp
+alias interface sibv do show ip bgp vpnv4 vrf 
+alias interface sio do show ip ospf
+alias interface s do show ip int br
+alias interface sri do show run int
+alias interface sr do show run
+alias interface srb do show run | section bgp
+alias interface sro do show run | section ospf
+alias interface sir do show ip route
+alias interface sirv do show ip route vrf
+alias interface sion do show ip ospf nei
+alias interface srv do show run vrf 
+alias interface sl do show logg
+alias interface sibs do show ip bgp summ 
+
+alias configure rb router bgp 
+alias configure sib do show ip bgp
+alias configure sibv do show ip bgp vpnv4 vrf 
+alias configure sio do show ip ospf
+alias configure s do show ip int br
+alias configure sri do show run int
+alias configure sr do show run
+alias configure srb do show run | section bgp
+alias configure sro do show run | section ospf
+alias configure sir do show ip route
+alias configure sirv do show ip route vrf
+alias configure sion do show ip ospf nei
+alias configure srv do show run vrf 
+alias configure sl do show logg
+alias configure sibs do show ip bgp summ 
+
+alias exec s show ip interface brief
+alias exec ct config t
+alias exec sibv show ip bgp vpnv4 vrf
+alias exec sio show ip ospf
+alias exec sib show ip bgp
+alias exec sri show run int
+alias exec sr show run
+alias exec srb show run | section bgp
+alias exec sro show run | section ospf
+alias exec sir show ip route
+alias exec sirv show ip route vrf
+alias exec sion show ip ospf nei
+alias exec srv show run vrf 
+alias exec sl show logg
+alias exec sibs show ip bgp summ
