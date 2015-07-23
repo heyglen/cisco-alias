@@ -13,6 +13,7 @@ alias bgp address-family sion do show ip ospf nei
 alias bgp address-family srv do show run vrf 
 alias bgp address-family sl do show logg
 alias bgp address-family sibs do show ip bgp summ 
+alias bgp se do show etherchannel
 
 alias subinterface rb router bgp 
 alias subinterface sib do show ip bgp
@@ -29,6 +30,7 @@ alias subinterface sion do show ip ospf nei
 alias subinterface srv do show run vrf 
 alias subinterface sl do show logg
 alias subinterface sibs do show ip bgp summ 
+alias subinterface se do show etherchannel
 
 alias router rb router bgp 
 alias router sib do show ip bgp
@@ -45,6 +47,7 @@ alias router sion do show ip ospf nei
 alias router srv do show run vrf 
 alias router sl do show logg
 alias router sibs do show ip bgp summ 
+alias router se do show etherchannel
 
 alias interface rb router bgp 
 alias interface sib do show ip bgp
@@ -61,6 +64,7 @@ alias interface sion do show ip ospf nei
 alias interface srv do show run vrf 
 alias interface sl do show logg
 alias interface sibs do show ip bgp summ 
+alias interface se do show etherchannel
 
 alias configure rb router bgp 
 alias configure sib do show ip bgp
@@ -77,6 +81,7 @@ alias configure sion do show ip ospf nei
 alias configure srv do show run vrf 
 alias configure sl do show logg
 alias configure sibs do show ip bgp summ 
+alias configure se do show etherchannel
 
 alias exec s show ip interface brief
 alias exec ct config t
@@ -93,3 +98,4 @@ alias exec sion show ip ospf nei
 alias exec srv show run vrf 
 alias exec sl show logg
 alias exec sibs show ip bgp summ
+alias exec se show etherchannel
