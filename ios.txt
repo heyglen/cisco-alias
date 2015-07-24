@@ -17,6 +17,7 @@ alias bgp se do show etherchannel
 alias bgp si do show interface
 alias bgp sst do show spanning-tree
 alias bgp ssti do show spanning-tree interface
+alias bgp sstv do show spanning-tree vlan
 alias bgp smai do show mac address interface
 alias bgp smav do show mac address vlan
 alias bgp sma do show mac address
@@ -40,6 +41,7 @@ alias subinterface se do show etherchannel
 alias subinterface si do show interface
 alias subinterface sst do show spanning-tree
 alias subinterface ssti do show spanning-tree interface
+alias subinterface sstv do show spanning-tree vlan
 alias subinterface smai do show mac address interface
 alias subinterface smav do show mac address vlan
 alias subinterface sma do show mac address
@@ -63,6 +65,7 @@ alias router se do show etherchannel
 alias router si do show interface
 alias router sst do show spanning-tree
 alias router ssti do show spanning-tree interface
+alias router sstv do show spanning-tree vlan
 alias router smai do show mac address interface
 alias router smav do show mac address vlan
 alias router sma do show mac address
@@ -86,6 +89,7 @@ alias interface se do show etherchannel
 alias interface si do show interface
 alias interface sst do show spanning-tree
 alias interface ssti do show spanning-tree interface
+alias interface sstv do show spanning-tree vlan
 alias interface smai do show mac address interface
 alias interface smav do show mac address vlan
 alias interface sma do show mac address
@@ -109,6 +113,7 @@ alias configure se do show etherchannel
 alias configure si do show interface
 alias configure sst do show spanning-tree
 alias configure ssti do show spanning-tree interface
+alias configure sstv do show spanning-tree vlan
 alias configure smai do show mac address interface
 alias configure smav do show mac address vlan
 alias configure sma do show mac address
@@ -132,6 +137,7 @@ alias exec se show etherchannel
 alias exec si show interface
 alias exec sst show spanning-tree
 alias exec ssti show spanning-tree interface
+alias exec sstv show spanning-tree vlan
 alias exec smai show mac address interface
 alias exec smav show mac address vlan
 alias exec sma show mac address
